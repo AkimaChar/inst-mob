@@ -1,0 +1,307 @@
+* {
+  box-sizing: border-box;
+}
+* a:hover {
+  cursor: pointer;
+}
+* a:active, * a:hover {
+  outline: none;
+}
+
+@font-face {
+  font-family: "Resident";
+  src: url(../fonts/3724-font.otf);
+}
+body,
+html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.fst-color-section {
+  background-image: url("../img/bg-grad.jpg");
+  width: 100%;
+  height: 480px;
+}
+
+.grid-section--container {
+  height: inherit;
+  background-image: url("../img/bg-grid.png");
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+}
+.grid-section--container .urgant {
+  width: 320px;
+  height: 302px;
+}
+.grid-section--container .camera-bottom, .grid-section--container .camera-top,
+.grid-section--container .camera .people {
+  position: absolute;
+}
+.grid-section--container .camera-top {
+  top: 13px;
+}
+.grid-section--container .camera-bottom {
+  bottom: -37px;
+}
+
+.sec-color-section {
+  background-image: url("../img/bg-grad-2.png");
+  width: 100%;
+  height: 454px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.thd-color-section {
+  background-image: url("../img/bg-img-1.png");
+  width: 100%;
+  height: 525px;
+  position: relative;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h7 {
+  font-family: "Resident";
+  line-height: 111.04%;
+  text-align: center;
+  color: #FFCC00;
+  margin: 0;
+}
+
+h1 {
+  margin-top: 90px;
+  font-size: 50px;
+}
+
+h2 {
+  color: #fff;
+  font-size: 40px;
+  margin-top: 70px;
+}
+h2 span {
+  color: #ffcc00;
+}
+
+h3 {
+  font-size: 42px;
+  top: 76px;
+  position: relative;
+  color: #fff;
+}
+
+.frt-colot-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  position: relative;
+  top: -25px;
+  height: 890px;
+  z-index: 100;
+  background-image: url("../img/bg-img-2.png");
+}
+
+h4 {
+  font-size: 38px;
+  color: #fff;
+  margin-top: 80px;
+}
+
+h5 {
+  color: #fff;
+  font-size: 32px;
+}
+h5 span {
+  color: #ffcc00;
+}
+
+.msg-container {
+  margin-top: 352px;
+}
+.msg-container .msg-card {
+  display: flex;
+  flex-direction: column;
+  padding: 6px 12px;
+  width: 250px;
+  height: 85px;
+  background: linear-gradient(90deg, #EEEEEE -2.34%, #ECECEC 104.14%);
+  border-radius: 3.57273px;
+}
+.msg-container .msg-card:not(:last-of-type) {
+  margin-bottom: 15px;
+}
+.msg-container > * {
+  font-family: "Proxima Nova Rg";
+  font-style: normal;
+  font-weight: normal;
+  color: #2E2E2E;
+}
+.msg-container .msg-body {
+  display: flex;
+  justify-content: space-between;
+}
+.msg-container .alternative-img {
+  align-self: flex-end;
+}
+.msg-container .title-sendler {
+  display: flex;
+  align-items: center;
+}
+.msg-container p {
+  margin: 0;
+}
+.msg-container .msg-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.msg-container .title-img {
+  margin-right: 5px;
+}
+.msg-container img {
+  height: 22px;
+  width: 22px;
+}
+.msg-container .title-text,
+.msg-container .title-time {
+  font-weight: 600;
+  font-size: 7.14545px;
+  line-height: 140%;
+  /* identical to box height, or 10px */
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+.msg-container .title-time {
+  font-weight: normal;
+}
+.msg-container .msg-author {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 9.63892px;
+  line-height: 92.04%;
+}
+.msg-container .msg-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 9.63892px;
+  line-height: 140%;
+}
+
+.add-cont {
+  background-image: url("../img/grad-3.png");
+  height: inherit;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.fth-color-section {
+  width: 100%;
+  height: 467px;
+  margin-top: -35px;
+  position: relative;
+}
+.fth-color-section .camera-bottom {
+  bottom: 150px;
+  position: relative;
+  z-index: 600;
+}
+.fth-color-section .camera-top {
+  top: 35px;
+  position: relative;
+  z-index: 100;
+}
+.fth-color-section img:nth-of-type(2) {
+  position: relative;
+  top: -100px;
+}
+
+.blured-rect {
+  width: 458px;
+  height: 183px;
+  position: absolute;
+  bottom: -80px;
+  z-index: 500;
+}
+
+h6 {
+  font-size: 38px;
+  line-height: 111.04%;
+  text-align: center;
+  color: #FFFFFF;
+  position: relative;
+  top: 30px;
+}
+
+.h7 {
+  font-size: 28px;
+  color: #fff;
+  position: relative;
+  top: 50px;
+}
+.h7 span {
+  color: #ffcc00;
+}
+
+p.h7 {
+  z-index: 700;
+}
+
+.last-section {
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  background-image: url("../img/last-img.png");
+}
+.last-section .look {
+  padding: 16px 66px;
+  background: linear-gradient(180deg, #FFE347 0%, #FEDD22 100%);
+  box-shadow: inset 0px -4px 0px #D9922B;
+  border-radius: 7px;
+  align-self: center;
+  font-size: 28px;
+  line-height: 92.54%;
+  /* or 26px */
+  top: unset;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  overflow: none;
+  text-decoration: none;
+  color: #000000;
+}
+.last-section .look:visited, .last-section .look:hover, .last-section .look:active {
+  overflow: none;
+  text-decoration: none;
+  cursor: pointer;
+}
+.last-section div {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.look-title {
+  font-family: "Resident";
+  font-size: 28px;
+  line-height: 111.04%;
+  /* identical to box height, or 31px */
+  margin-bottom: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
