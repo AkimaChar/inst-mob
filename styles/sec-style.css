@@ -1,0 +1,162 @@
+* {
+  box-sizing: border-box;
+}
+* a:hover {
+  cursor: pointer;
+}
+* a:active, * a:hover {
+  outline: none;
+}
+
+@font-face {
+  font-family: "Resident";
+  src: url(../fonts/3724-font.otf);
+}
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #000;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+section .camera-top {
+  margin-top: 13px;
+}
+section .camera-bottom {
+  position: absolute;
+  z-index: 120;
+  bottom: 170px;
+}
+
+h1 {
+  margin: 0;
+  font-family: "Resident";
+  font-size: 52px;
+  margin-top: 20px;
+  font-weight: normal;
+  line-height: 111.04%;
+  text-align: center;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+}
+
+.clown {
+  position: relative;
+  z-index: 100;
+  top: -140px;
+}
+
+.h1 {
+  margin: 0;
+  margin-top: 10px;
+  font-family: "Resident";
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 110%;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.curve {
+  position: absolute;
+  margin-left: -80px;
+  margin-top: 255px;
+}
+
+.full {
+  background-image: url("../img/full-bg.png");
+  background-repeat: no-repeat;
+  width: 320px;
+  height: 1877px;
+  margin: auto;
+  position: relative;
+  margin-top: -280px;
+}
+
+h2,
+h3,
+h4,
+h6 {
+  margin: 0;
+  font-size: 42px;
+  line-height: 111%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFCC00;
+}
+
+h4 {
+  position: absolute;
+  top: 750px;
+}
+
+h3 {
+  position: absolute;
+  top: 420px;
+}
+
+h2 {
+  text-align: left !important;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+h6 {
+  top: unset;
+  position: absolute;
+  bottom: 540px;
+  left: 75px;
+  letter-spacing: 0.02em;
+}
+
+h5 {
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 89.54%;
+  /* or 25px */
+  top: unset;
+  position: absolute;
+  bottom: 686px;
+  left: 52px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.look {
+  padding: 22.5px 51px;
+  background: linear-gradient(180deg, #FFE347 0%, #FEDD22 100%);
+  box-shadow: inset 0px -4px 0px #D9922B;
+  border-radius: 7px;
+  align-self: center;
+  bottom: 50px;
+  position: absolute;
+  /* or 26px */
+  top: unset;
+  overflow: none;
+  text-decoration: none;
+  font-size: 28px;
+  line-height: 92.54%;
+  /* or 26px */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: #000000;
+}
+.look:visited, .look:hover, .look:active {
+  overflow: none;
+  text-decoration: none;
+  cursor: pointer;
+}
